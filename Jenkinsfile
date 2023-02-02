@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Tomcat'){
+        stage('Deploy to Tomcat server'){
             steps{
                 build job: 'Deploy_App'
             }
